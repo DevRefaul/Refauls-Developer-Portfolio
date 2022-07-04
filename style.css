@@ -74,24 +74,29 @@ h1{
  .title{
     text-align: center;
  }
-#experience{
+.experience{
     display: flex;
     justify-content: center;
     margin: 50px 0px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .baby-dev{
-    width: 45%;
-    margin-left: 2%;
-    padding: 20px;
+    width: 43%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding: 20px 50px;
     border-left: 5px solid #ED1E79;
     height: 350px;
     box-shadow: 10px 10px 40px rgb(105, 105, 105);
 }
 .full-dev{
-    width: 45%;
-     padding: 20px;
-     margin-left: 2%;
+    width: 43%;
+     padding: 20px 50px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     border-left: 5px solid #662D8C;
     height: 350px;
         box-shadow: 10px 10px 40px rgb(105, 105, 105);
